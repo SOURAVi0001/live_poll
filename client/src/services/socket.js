@@ -1,6 +1,6 @@
 import io from 'socket.io-client';
 
-const ENDPOINT = 'http://localhost:5012';
+const ENDPOINT = process.env.REACT_APP_API_URL || 'http://localhost:5000';
 
 class SocketService {
   constructor() {
