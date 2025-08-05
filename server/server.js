@@ -11,7 +11,7 @@ const server = http.createServer(app);
 // Define allowed origins for both local and production
 const allowedOrigins = [
   "http://localhost:3000",  // Local development
-  "https://live-polling-frontend-5p85.onrender.com",  // Your production frontend URL
+  "https://live-poll-frontend-py6p.onrender.com",  // Your production frontend URL
   process.env.CORS_ORIGIN  // Additional env var support
 ].filter(Boolean); // Remove any undefined values
 
